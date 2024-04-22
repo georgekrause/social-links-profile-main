@@ -19,7 +19,15 @@ img {
 }
 
 body {
+    display: flexbox;
+    text-align: center;
     font-size: 16px;
     background-color: darkgray;
     margin: auto;
+}
+
+.links {
+    display: block;
+    align-items: center;
+    background-color: lightgray;
 }
