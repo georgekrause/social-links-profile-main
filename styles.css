@@ -1,20 +1,34 @@
 .attribution { 
     font-size: 11px; text-align: center; 
 }
-
+/*
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-
+*/
 img {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    padding-top: 1%;
+}
+
+.location {
+    color: yellow;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 300px;
     margin: auto;
-    background-color: gray;
+    background-color: darkgray;
     border-radius: 1em;
 }
 
@@ -22,12 +36,22 @@ body {
     display: flexbox;
     text-align: center;
     font-size: 16px;
-    background-color: darkgray;
-    margin: auto;
+    background-color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .links {
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: lightgray;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background-color:lightgray;
+    margin: 5px;
+    width: 225px;
+    height: 40px;
 }
