@@ -59,6 +59,10 @@ button {
     height: 40px;
 }
 
+button:hover {
+    background-color: yellow;
+}
+
 h2, p {
     line-height: 0.1;
 }
